@@ -1,0 +1,35 @@
+h1 {text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #808080;
+}
+p{
+    color: white;
+    text-align: left;
+}
+div{
+color: #ffff;
+text-align: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    padding: 14px 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+.par{
+    font-size: 12px;
+}
