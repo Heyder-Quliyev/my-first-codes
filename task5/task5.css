@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+background-color: #222B38;
+height: 50px;
+justify-content: space-around;
+}
+.logo{
+    display: flex;
+display: block;
+padding-top: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+width: 30%;
+padding: 15px;
+}
+
+.item{
+    color: white;
+}
+button{
+    border-radius: 5px;
+    border-color: white;
+    border: 1px solid white;
+    color: white;
+    background-color: #222B38;
+    padding: 5px 12px;
+}
+button:hover {
+    background-color: white;
+    color: #222B38;
+}
+
+.back{
+    background-image: url(https://images.pexels.com/photos/4427506/pexels-photo-4427506.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+height: 1000px;
+}
+
+
+.context{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+h4{
+    text-align: center;
+}
+
+.button2{
+    border-radius: 5px;
+    border-color: white;
+    border: 1px solid white;
+    color: white;
+    background-color: #222B38;
+    padding: 5px 12px;
+}

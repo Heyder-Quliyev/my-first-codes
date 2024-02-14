@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 h4{
     display: inline-block;
@@ -18,22 +17,24 @@ h4{
 .d-flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
+justify-content: center;    
 }
 
 .box{
-    width: 49%;
+    width: 35%;
     margin: 5px 5px;
     background-color: white;
     border: 0px solid black;
-    display: flex;  
+    display: flex; 
+    border-radius: 15px; 
+    box-shadow: 2px 2px rgb(133, 133, 133);
+
 }
 
 
 img{
-    width: 50%;
-    margin-right: 15px;
+    width: 35%;
+    border-radius: 15px;
     
 }
 
@@ -42,10 +43,14 @@ button{
 width: 50%;
 padding: 5px;
 margin-left: 10px;
+margin-top: 50px;
 border-color: #C8A97E;
 background-color: #C8A97E;
 color: white;
+border-radius: 10px;
 }
+
+
 p{
     margin-left: 10px;
 }

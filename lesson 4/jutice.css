@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    display: block;
+padding-top: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+width: 30%;
+padding: 15px;
+}
+
+.item{
+    display: flex;
+    color: white;
+}
+.item:hover{
+color: black;
+}
+
+.back{
+    background-image: url(https://images.pexels.com/photos/4427425/pexels-photo-4427425.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+height: 1000px;
+}
+
+
+.context{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: white;
+}
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    color: white;
+}
+.c{
+font-weight: bold;
+    color: #AC9868;
+}
+a{
+   color: #AC9868; 
+}
+
+.push1{
+    border-radius: 15px;
+    border: 1px solid #AC9868;
+    color: white;
+    background-color: #AC9868;
+    padding: 10px 24px;
+    width: 175px;
+    margin-top: 10px;
+}
+
+
+section{
+background-color: #37373F;
+}
+p{
+    color: #8c8c8f;
+}
+
+
+.txt1{
+    width: 45%;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.txt2{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h5{
+    color: #AC9868;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.art{
+    color: #AC9868;
+}
+
+
+.row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+i{
+    display: flex;
+    flex-wrap: wrap;
+margin-top: 10px;
+margin-right: 5px;
+font-size: 25px;
+}
+
+
+.push2{
+    border-radius: 15px;
+    border: 1px solid #AC9868;
+    color: white;
+    background-color: #AC9868;
+    padding: 10px 24px;
+    width: 175px;
+    margin-top: 10px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
